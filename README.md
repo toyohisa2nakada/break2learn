@@ -1,3 +1,3 @@
 # vercel
-[vercel](https://test-break2learn.vercel.app/)
+[vercel](https://break2learn.vercel.app/)
 
