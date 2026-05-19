@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { StorageProvider } from "../context/StorageContext";
 
 import FakeGeminiInput from './components/FakeGeminiInput';
+import FakeGeminiOutput from './components/FakeGeminiOutput';
 import DangerousOutput from './components/DangerousOutput';
 import JSLogin from './components/JSLogin';
 import ServerLogin from './components/ServerLogin';
@@ -15,6 +16,11 @@ https://zenn.dev/kt3k/articles/7157f4216732fe
 */
 
 const TASKS = [
+  {
+    title: "Geminiを通してAI利用者をだます",
+    type: "exercise" as const,
+    content: <FakeGeminiOutput />
+  },
   {
     title: "偽Gemini",
     type: "exercise" as const,
