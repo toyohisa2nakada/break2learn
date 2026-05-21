@@ -21,6 +21,7 @@ const TASKS = [
     type: "exercise" as const,
     content: <FakeGeminiOutput />
   },
+  /*
   {
     title: "ハックされたGemini",
     type: "exercise" as const,
@@ -50,7 +51,8 @@ const TASKS = [
     title: "ブルートフォース攻撃体験：4桁の数字は一瞬で突破される？",
     type: "attack" as const,
     content: <FourDigitAuth />
-  }
+  },
+  */
 ];
 
 interface TaskSectionProps {
