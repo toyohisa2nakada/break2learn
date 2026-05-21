@@ -132,7 +132,7 @@ function TaskSection({ children, title, type, userInfo }: TaskSectionProps) {
 
 export default function MainPage() {
   const [userInfo, setUserInfo] = useState<{ id: string; name: string; } | null>(null);
-  const isSkipUserInfo = false;
+  const isSkipUserInfo = true;
   useEffect(() => {
     const saved = localStorage.getItem(`break2learn_userInfo`);
     if (saved) setUserInfo(JSON.parse(saved));
