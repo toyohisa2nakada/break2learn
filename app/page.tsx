@@ -200,7 +200,7 @@ export default function MainPage() {
           </span>
         </div>
 
-        <a href="https://github.com/toyohisa2nakada/test-break2learn" className="flex flex-row items-center">
+        <a href="https://github.com/toyohisa2nakada/learning-from-ai-failures" className="flex flex-row items-center">
           <img src="https://cdn.simpleicons.org/github/white" width="30px" />
           <span>このサイトのプログラム</span>
         </a>
